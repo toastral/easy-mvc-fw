@@ -5,6 +5,7 @@
  * Date: 18.09.2016
  * Time: 7:52
  */
+
 class Controller {
 
     public $model;

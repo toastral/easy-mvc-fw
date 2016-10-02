@@ -11,6 +11,7 @@ class DB{
     function __construct(){
         $this->db = DbConn::getInstance()->getConnection();
     }
+
     function query($q){
         $res = $this->db->query($q);
         if(!$res){

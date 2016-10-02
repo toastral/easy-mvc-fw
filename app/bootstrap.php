@@ -5,6 +5,7 @@
  * Date: 17.09.2016
  * Time: 18:31
  */
+session_start();
 require_once 'core/autoload.php';
 require_once 'core/myexception.php';
 require_once 'core/dbconn.php';
